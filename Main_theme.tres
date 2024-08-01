@@ -1,0 +1,7 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cv5c8djr2y5cc"]
+
+[ext_resource type="FontFile" uid="uid://31l3k1rhhol8" path="res://Resources/Poco.ttf" id="1_8pese"]
+
+[resource]
+default_font = ExtResource("1_8pese")
+default_font_size = 20
