@@ -23,7 +23,7 @@ func on_input(event:InputEvent) -> void:
 		
 func on_gui_input(event:InputEvent) -> void:
 	if current_state:
-		current_state.on__gui_input(event)
+		current_state.on_gui_input(event)
 		
 func on_mouse_entered() -> void:
 	if current_state:
@@ -46,16 +46,4 @@ func _on_transition_requested(from: CardState, to: CardState.State) -> void:
 	
 	new_state.enter()
 	current_state = new_state
-		
-
-
-func _on_card_ui_gui_input(event):
-	pass # Replace with function body.
-
-
-func _on__gui_input(event):
-	pass # Replace with function body.
-
-
-func _on_gui_input(event):
-	pass # Replace with function body.
+	
